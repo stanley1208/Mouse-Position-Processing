@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
@@ -6,10 +8,6 @@ using UnityEngine;
 public static class ScreenUtils
 {
     #region Fields
-
-    // saved to support resolution changes
-    static int screenWidth;
-    static int screenHeight;
 
     // cached for efficient boundary checking
     static float screenLeft;
@@ -66,10 +64,6 @@ public static class ScreenUtils
     /// </summary>
     public static void Initialize()
     {
-        // save to support resolution changes
-        screenWidth = Screen.width;
-        screenHeight = Screen.height;
-
         // save screen edges in world coordinates
         float screenZ = -Camera.main.transform.position.z;
         Vector3 lowerLeftCornerScreen = new Vector3(0, 0, screenZ);
@@ -87,4 +81,3 @@ public static class ScreenUtils
 
     #endregion
 }
-

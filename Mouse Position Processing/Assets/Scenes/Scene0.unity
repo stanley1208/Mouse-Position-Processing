@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420033}
+  - component: {fileID: 519420034}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -220,62 +221,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dffe541341a044d4fb9c74511bf8127b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &4507588028521253905
-PrefabInstance:
+--- !u!114 &519420034
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 2
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4507588028803072439, guid: a63ab385a13a8b640bbd02ccc0e685b1, type: 3}
-      propertyPath: m_Name
-      value: Sage
-      objectReference: {fileID: 0}
-    - target: {fileID: 4507588028803072441, guid: a63ab385a13a8b640bbd02ccc0e685b1, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4507588028803072441, guid: a63ab385a13a8b640bbd02ccc0e685b1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4507588028803072441, guid: a63ab385a13a8b640bbd02ccc0e685b1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4507588028803072441, guid: a63ab385a13a8b640bbd02ccc0e685b1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4507588028803072441, guid: a63ab385a13a8b640bbd02ccc0e685b1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4507588028803072441, guid: a63ab385a13a8b640bbd02ccc0e685b1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4507588028803072441, guid: a63ab385a13a8b640bbd02ccc0e685b1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4507588028803072441, guid: a63ab385a13a8b640bbd02ccc0e685b1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4507588028803072441, guid: a63ab385a13a8b640bbd02ccc0e685b1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4507588028803072441, guid: a63ab385a13a8b640bbd02ccc0e685b1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4507588028803072441, guid: a63ab385a13a8b640bbd02ccc0e685b1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_AddedGameObjects: []
-  m_SourcePrefab: {fileID: 100100000, guid: a63ab385a13a8b640bbd02ccc0e685b1, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba9673e437f8414448e06bc6e64226d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabCharacter0: {fileID: 760927797077923846, guid: a63ab385a13a8b640bbd02ccc0e685b1, type: 3}
+  prefabCharacter1: {fileID: 7927716851480685306, guid: df57e2ead6a73c841b3676e57dbfd88f, type: 3}
+  prefabCharacter2: {fileID: 6683589692712086536, guid: d09dcc7f15dcbcd48895af24f901e044, type: 3}
+  prefabCharacter3: {fileID: 4239544582811969753, guid: fc4be37f2595b0442a8ebdfdf849775d, type: 3}
