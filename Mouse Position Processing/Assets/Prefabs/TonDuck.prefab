@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5228761489453513649}
   - component: {fileID: 4687686638672496300}
-  - component: {fileID: 1421564206285719300}
+  - component: {fileID: -8174450520090692222}
   m_Layer: 0
   m_Name: TonDuck
   m_TagString: Untagged
@@ -85,7 +85,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1421564206285719300
+--- !u!114 &-8174450520090692222
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -94,6 +94,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 6683589692712086536}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfbf030609f02984db23ec93d5788755, type: 3}
+  m_Script: {fileID: 11500000, guid: 6810546a7f119e24e9dad81f6c58d302, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

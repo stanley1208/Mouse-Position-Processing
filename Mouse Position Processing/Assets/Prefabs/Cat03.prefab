@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 527384322824645591}
   - component: {fileID: 2277913544224037631}
-  - component: {fileID: 92558197317768912}
+  - component: {fileID: -5970797661899230940}
   m_Layer: 0
   m_Name: Cat03
   m_TagString: Untagged
@@ -85,7 +85,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &92558197317768912
+--- !u!114 &-5970797661899230940
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -94,6 +94,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 7927716851480685306}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfbf030609f02984db23ec93d5788755, type: 3}
+  m_Script: {fileID: 11500000, guid: 6810546a7f119e24e9dad81f6c58d302, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

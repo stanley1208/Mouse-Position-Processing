@@ -27,7 +27,7 @@ public class CharacterChanger : MonoBehaviour
     void Update()
     {
         // change character on left mouse button
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetAxis("ChangeCharacter")>0)
         {
             // save position and destroy current character
             Vector3 position = currentCharacter.transform.position;
